@@ -7,4 +7,4 @@ Criando um website com consumo de API Movie, e as seguintes linguagens:
 
 ## Resultado Final do Projeto:
 
-![Visão da Página inicial](https://raw.githubusercontent.com/tiagosfneves/siteConsultarCEP/main/assets/visaoTelaInicial.jpg)
+![Visão da Página inicial](https://raw.githubusercontent.com/tiagosfneves/API_Movie/main/assets/visaoPaginaInicial.png)
