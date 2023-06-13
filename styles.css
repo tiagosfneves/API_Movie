@@ -5,14 +5,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container__menu-bar {
-    width: 100%;
+.container__header {
     background-color: #000;
     color: #eee;
 }
 
-.container__menu-bar {
-    padding: .5rem;
+.container__header__menu-bar > h1 {
+    margin: .25rem 1rem;
+    font-weight: 700;
 }
 
 body {
@@ -23,8 +23,17 @@ body {
     background-size: cover;  
   }
 
+.container__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container__movie-card {
-    margin-top: .5rem;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
     background-color: #eee;
     /* border: solid #000 .5rem; */
     border-radius: 1rem;
@@ -46,5 +55,22 @@ img {
     width: 200px;
     border-radius: 1rem;
     box-shadow: 0 10px 15px 0 #000000f5;
-    opacity: .95;
 }
+
+.container__footer__my-redes {
+    height: 3rem;
+    background-color: #000;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container__footer__my-redes__titulo,
+  .container__footer__my-redes__icon {
+    padding: 0 0 0 .35rem;
+  }
+  
+  .container__footer__my-redes__icon a {
+    padding: 0 .35rem;
+  }

@@ -5,21 +5,47 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Movie Kids</title>
+        <title>iMatlix</title>
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <header class="container__menu-bar">
-            <h1>The Movie Matrix</h1>
+        <header class="container__header">
+            <div class="container__header__menu-bar">
+                <h1>iMatlix</h1>
+            </div>          
         </header>
 
-        <main class="container__movie-card">
-            <!-- <button onclick="getMovies()">Carregar</button> -->  <!-- Evnto click para carregar movies na tela -->
-            <div id="moviesContainer"></div> 
+        <main class="container__main">
+            <section class="container__movie-card">
+                <!-- <button onclick="getMovies()">Carregar</button> -->  <!-- Evnto click para carregar movies na tela -->
+                <div id="moviesContainer"></div> 
+            </section>
         </main>
 
+        <footer>
+            <footer class="container__footer">
+                <div class="container__footer__my-redes">
+                    <div class="container__footer__my-redes__copy">
+                      <h5>iMatflix •</h5>
+                    </div>
+            
+                    <div class="container__footer__my-redes__titulo">
+                      <h5>Nossas Redes •</h5>
+                    </div>
+            
+                    <div class="container__footer__my-redes__icon">        
+                  <a href="https://github.com" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+                  <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                  <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
+                </div>      
+              </div>
+        </footer>
         <script src="./scripts.js"></script>
     </body>
 </html>
